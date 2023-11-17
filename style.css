@@ -1,0 +1,52 @@
+body{
+    margin-left: 15px;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.pagination button {
+    margin-right: 5px;
+}
+
+#res{
+    border: 2px solid rgb(227, 156, 156);
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+#search{
+    margin-top: 30px;
+    margin-left:120px;
+
+}
+#navBar{
+    margin-top: 2px;
+    background-color: bisque;
+   
+}
+#navBarName{
+    margin-left: 60px;
+    font-size: large;
+    color: brown
+}
+#img{
+    margin-left: 15px;
+}
+#title{
+    font-size:large ;
+    color: brown; 
+}
+#author{
+    font-size:medium ;
+    color: brown; 
+}

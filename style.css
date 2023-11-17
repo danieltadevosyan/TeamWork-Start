@@ -1,0 +1,39 @@
+body {
+    display: flex;
+
+    flex-direction: column;
+    margin:0;
+}
+
+nav ,ul,footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li {
+    margin-right: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+header img,footer img {
+    width: 100px;    
+}
+form {
+    display: grid;
+    justify-items: center;
+}
+
+.blogs-items {
+    display: flex;
+    justify-content: space-around
+}
+
+.blog-item img {
+    width: 100px;
+}

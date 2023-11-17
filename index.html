@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Search your book</title>
 </head>
 <body>
+    <div id="navBar" class="flex-container">
+    <div>
+        <img src="pen-and-books.svg" id="img" height="68px" width="68px">
+    </div>
+    <div id="navBarName">
+
+        <p>Big Library</p>
+        <p>Find the book you need</p>
+    </div>
+    </div>
+    <div id="search">
+    <label for="bookName">Enter the book name:</label>
+    <input type="text" id="bookName" placeholder="Alice in Wonderland">
+    <button onclick="findBooks()">Search</button>
+    </div>
+  </div>
+
+    <div id="results"></div>
+    <div class="pagination" id="pagination"></div>
     
 </body>
 </html>

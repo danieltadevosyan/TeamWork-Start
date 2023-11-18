@@ -1,8 +1,7 @@
 function findBooks(){
 
     let bookName = document.getElementById("bookName").value;
-    let tempName = bookName.split(" ").join("+");
-    const URL = `http://openlibrary.org/search.json?q=${tempName}`;
+    const URL = `http://openlibrary.org/search.json?q=${encodeURIComponent(bookName)}`;
    
     fetch(URL).then(response =>response.json()).
     then(data => showBooks(data)).catch(error => console.log('Error:', error));
@@ -17,7 +16,7 @@ function findBooks(){
        resultsContainer.innerHTML = "";
        paginationContainer.innerHTML = "";
     
-       resultsContainer.innerHTML += `<p> Books Found: ${data.numFound}</p>`;
+       resultsContainer.innerHTML += `<p id="foundBooks" > Books Found: ${data.numFound}</p>`;
        
        data.docs.forEach(book => {
            

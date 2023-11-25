@@ -13,7 +13,7 @@
 
     <form onsubmit="getInput();return false">
         <label for="dogs">Choose a car:</label>
-        <select name="dogs" id="dogs">
+        <select name="dogs" id="dogs" onchange="getInput() ">
             <option value="akita">Akita</option>
             <option value="beagle">Beagle</option>
             <option value="dalmatian">Dalmatian</option>
@@ -25,6 +25,7 @@
             <option value="pug">pug</option>
         </select>    
         <br><br>
+        <div id = "imageContainer"></div>
         <script src="../Frontend/footer.js"></script>        
 </body>
 </html>

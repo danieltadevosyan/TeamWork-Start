@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="searchBookStyle.css">
+    <script src="searchBookLogic.js"></script>
+    <title>Search your book</title>
+</head>
+<body>
+    <div id="navBar" class="flex-container">
+    <div>
+        <img src="./Images/pen-and-books.svg" id="img" height="68px" width="68px">
+    </div>
+    <div id="navBarName">
+
+        <p>Big Library</p>
+        <p>Find the book you need</p>
+    </div>
+    </div>
+    <div id="search">
+    <label for="bookName">Enter the book name:</label>
+    <input type="text" id="bookName" placeholder="Alice in Wonderland">
+    <button onclick="findBooks()">Search</button>
+    </div>
+  </div>
+
+    <div id="results"></div>
+    <div class="pagination" id="pagination"></div>
+    
+</body>
+</html>

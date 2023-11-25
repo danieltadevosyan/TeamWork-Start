@@ -1,0 +1,85 @@
+body{
+    margin-left: 15px;
+    margin-top: 25px;
+    padding: 15px;
+    background-image: url(./Images/top-view-wooden-surface-with-books-blank-space.jpg);
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.pagination button {
+    margin-right: 5px;
+}
+
+#res{
+    padding: 10px;
+    border: 2px solid rgb(109, 169, 169);
+    border-radius: 6%;
+    margin: 20px;
+    margin-left: 30%;
+    width: 65%;
+    background-color:rgb(150, 194, 194);
+}
+
+#foundBooks{
+   text-align: right;
+   color: rgb(26, 32, 3);
+   font-size:x-large;
+   margin-right: 30px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+#search{
+    margin: auto;
+    width: 60%;
+    font-size:x-large;
+    color: rgb(5, 5, 4);
+    padding: 10px;
+    margin-top: 15px;
+
+}
+
+#bookName{
+    background-color: rgb(150, 194, 194);
+}
+
+#navBar{
+    margin: auto;
+    margin-top: 2px;
+    background-color:rgb(150, 194, 194);
+    border: 2px solid rgb(109, 169, 169);
+    border-radius: 6%;
+    width: 60%;
+    align-items: center;
+   
+}
+
+#navBarName{
+    margin-left: 60px;
+    font-size:x-large;
+    color:rgb(26, 32, 3)
+}
+
+#img{
+    margin-left: 15px;
+}
+
+#title{
+    font-size:large ;
+    color: rgb(26, 32, 3);
+}
+
+#author{
+    font-size:medium ;
+    color: rgb(26, 32, 3); 
+}
